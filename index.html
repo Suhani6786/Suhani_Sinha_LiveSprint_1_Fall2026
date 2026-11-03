@@ -1,1 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reveal What's that Animal</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="page-header">
+      <h1 class="page-title">
+        Welcome to the Interactive Reveal What's that Animal UI
+      </h1>
+      <p class="page-subtitle">
+        Click on the buttons below to reveal the animal images
+      </p>
+    </header>
 
+    <main>
+      <section class="animal-grid">
+        <article class="animal-column">
+          <figure id="cat-result" class="result-box hidden">
+            <img src="cat.jpg" alt="A tabby cat sitting outdoors" />
+            <button id="cat-hide" class="btn btn-hide">Hide Result</button>
+          </figure>
+          <button id="cat-reveal" class="btn btn-reveal">Reveal a CAT</button>
+        </article>
+
+       
